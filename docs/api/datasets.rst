@@ -470,6 +470,11 @@ PyHealth does not ship any data: you download each dataset from its source and p
      - `NIH <https://nihcc.app.box.com/v/ChestXray-NIHCC>`__
      - Yes
      - —
+   * - :doc:`Brain Tumor MRI (Bhuvaji) <datasets/pyhealth.datasets.BrainTumorMRIDataset>`
+     - Open (no licence file on GitHub; Kaggle lists MIT)
+     - `GitHub <https://github.com/SartajBhuvaji/Brain-Tumor-Classification-DataSet>`__
+     - No (``git clone``)
+     - —
    * - :doc:`Medical Segmentation Decathlon <datasets/pyhealth.datasets.MSDSegmentationDataset>`
      - Open
      - `MSD <http://medicaldecathlon.com/>`__
@@ -537,6 +542,7 @@ Available Datasets
     datasets/pyhealth.datasets.MSDSpleenDataset
     datasets/pyhealth.datasets.CHAOSDataset
     datasets/pyhealth.datasets.RSNAPneumoniaDataset
+    datasets/pyhealth.datasets.BrainTumorMRIDataset
     datasets/pyhealth.datasets.MIMIC3Dataset
     datasets/pyhealth.datasets.MIMIC4Dataset
     datasets/pyhealth.datasets.MIMIC4EHRDataset
